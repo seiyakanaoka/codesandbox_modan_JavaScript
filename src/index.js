@@ -125,7 +125,7 @@
 
 // map&filter
 
-const nameArr = ["田中", "山田", "じゃけぇ"];
+// const nameArr = ["田中", "山田", "じゃけぇ"];
 // for (let index = 0; index < nameArr.length; index++) {
 //   console.log(nameArr[index]);
 // }
@@ -151,3 +151,19 @@ const nameArr = ["田中", "山田", "じゃけぇ"];
 //   }
 // })
 // console.log(newNameArr);
+
+// 三項演算子
+
+// const val1 = 1 > 0 ? 'trueです' : 'falseです';
+// console.log(val1);
+
+// const num = 1300;
+// console.log(num.toLocaleString());
+
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください';
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? '100を超えています!!' : '許容範囲内です';
+// }
+// console.log(checkSum(50, 20));
