@@ -167,3 +167,23 @@
 //   return num1 + num2 > 100 ? '100を超えています!!' : '許容範囲内です';
 // }
 // console.log(checkSum(50, 20));
+
+// 論理演算子
+
+// const flag1 = true;
+// const flag2 = false;
+
+// if(flag1 || flag2) {
+//   console.log("1か2はTrueになります");
+// }
+// if(flag1 && flag2) {
+//   console.log("1も2もTrueになります");
+// }
+
+// const num = null;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// const num2 = 100;
+// const fee2 = num2 && "何か設定されした";
+// console.log(fee2);
